@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  width: 50%;
+  height: 100%;
+  font-family: "comic sans MS";
+}
+h1 {
+  margin-left: 55%;
+  font-size: 25px;
+}
+
+#tryAgain {
+  font-weight: bold;
+  margin-top: 80px;
+  margin-left: 62%;
+  padding: 10px;
+}
+
+.cell-container {
+  width: 25%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.cell-container div {
+  width: 125px;
+  height: 125px;
+  border: solid 1px;
+  box-shadow: 0 0 0 2px;
+  cursor: pointer;
+  line-height: 105px;
+  font-size: 70px;
+  text-align: center;
+}
